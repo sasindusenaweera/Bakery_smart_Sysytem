@@ -1,0 +1,17 @@
+{
+    "java.compile.nullAnalysis.mode": "automatic",
+    "lombok.enable": true,
+    "lombok.addLombokGeneratedAnnotation": true,
+    "java.configuration.runtimes": [
+        {
+            "name": "JavaSE-23",
+            "path": "${env:JAVA_HOME}",
+            "default": true
+        }
+    ],
+    "[java]": {
+        "editor.formatOnSave": false
+    },
+    "java.project.sourcePaths": ["Backend/src/main/java"],
+    "maven.terminal.customEnv": []
+}
